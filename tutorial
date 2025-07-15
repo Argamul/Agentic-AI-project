@@ -1,0 +1,26 @@
+Sebelum run:
+    Sebelum run semua program, paste ini di terminal buat python:
+
+        pip install langchain
+        pip install flask
+        pip install python-dotenv
+        pip install langchain-groq
+
+    Java gaa perlu asal udah download java, maven, sama jdk.
+
+Start Run:
+    Buka di 2 terminal berbeda
+
+    Di terminal pertama masukin ini
+        1. cd C:\...\backend java-python\python_service (tergantung folder tempat kalian nyimpen)
+        2. .\venv\Scripts\activate
+        3. python app.py
+
+    Di terminal kedua masukin ini
+        1. cd C:\...\backend java-python (tergantung folder tempat kalian nyimpen)
+        2. mvn clean install
+        3. mvn spring-boot:run
+
+Setelah Run:
+    paste: http://127.0.0.1:5000 di web.
+    paste: http://localhost:8080/chat di web.
